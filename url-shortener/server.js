@@ -1,23 +1,27 @@
 const express = require('express');
 const connectDB = require('./config/db');
-const dotenv = require('dotenv');
 const path = require('path');
-
-dotenv.config();
 
 const app = express();
 
-// Connect to the database
+// Connect to database
 connectDB();
 
-// Middleware
-app.use(express.json());
+// Init middleware
+app.use(express.json({ extended: false }));
 
-// Static folder
-app.use(express.static(path.join(__dirname, 'public')));
+// Define Routes
+app.use('/api/url', require('./routes/url'));
 
-// Routes
-app.use('/', require('./routes/url'));
+// Serve static assets in production
+if (process.env.NODE_ENV === 'production') {
+  // Set static folder
+  app.use(express.static('public'));
+
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
+  });
+}
 
 const PORT = process.env.PORT || 5000;
 
