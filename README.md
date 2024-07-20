@@ -119,7 +119,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## Contact
 
 <p >
-  <img src="./public/assets/profilepic.jpg" alt="Fitsum Helina" width="100" height="100"/>
+  <img src="./public//assets//profilepic.jpg" alt="Fitsum Helina" width="100" height="100"/>
 </p>
 
 - **Name:** Fitsum Helina
