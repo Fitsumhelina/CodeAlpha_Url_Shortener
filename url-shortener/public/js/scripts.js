@@ -30,3 +30,14 @@ document.getElementById('url-form').addEventListener('submit', async function (e
     }
   });
   
+  document.getElementById('copyButton').addEventListener('click', function () {
+    const shortUrl = document.getElementById('shortUrl').href;
+  
+    navigator.clipboard.writeText(shortUrl).then(() => {
+      alert('Copied to clipboard');
+    }).catch(err => {
+      console.error('Error:', err);
+      alert('Failed to copy');
+    });
+  });
+  
