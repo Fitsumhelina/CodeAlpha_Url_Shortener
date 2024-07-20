@@ -122,8 +122,8 @@ Contributions are welcome! Please open an issue or submit a pull request for any
   <img src="./public//assets//profilepic.jpg" alt="Fitsum Helina" width="100" height="100"/>
 </p>
 
-**Name:** Fitsum Helina
-**Email:** dev.fitsum@example.com
-**Portfolio:** [https://fitsumhelina.vercel.app](https://fitsumhelina.vercel.app)
+-**Name:** Fitsum Helina
+-**Email:** dev.fitsum@example.com
+-**Portfolio:** [https://fitsumhelina.vercel.app](https://fitsumhelina.vercel.app)
 
 ---
