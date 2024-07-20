@@ -118,12 +118,12 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Contact
 
-<p >
+- <p >
   <img src="./public//assets//profilepic.jpg" alt="Fitsum Helina" width="100" height="100"/>
-</p>
+ </p>
 
--**Name:** Fitsum Helina
--**Email:** dev.fitsum@example.com
--**Portfolio:** [https://fitsumhelina.vercel.app](https://fitsumhelina.vercel.app)
+- **Name:** Fitsum Helina
+- **Email:** dev.fitsum@example.com
+- **Portfolio:** [https://fitsumhelina.vercel.app](https://fitsumhelina.vercel.app)
 
 ---
