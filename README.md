@@ -112,6 +112,12 @@ Open your browser and go to [http://localhost:5000](http://localhost:5000).
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## live 
+
+check it here : https://url-azure.vercel.app/
+disclaimer!! : currently it is not working on deployed version. 
+
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
