@@ -114,8 +114,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## live 
 
-check it here : https://url-azure.vercel.app/
-disclaimer!! : currently it is not working on deployed version. 
+- check it here : https://url-azure.vercel.app/
+- disclaimer!! : currently it is not working on deployed version. 
 
 
 ## Contributing
